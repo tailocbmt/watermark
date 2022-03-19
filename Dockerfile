@@ -1,10 +1,10 @@
 FROM python:3.7-slim
 
+RUN apt-get update 
+
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-RUN apt-get update 
-RUN pip install opencv-python
 
 WORKDIR /app
 COPY . .
