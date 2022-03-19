@@ -16,7 +16,7 @@ python3 app.py
 
 - Head to `127.0.0.1/docs`
 
-## Try the app
+## 3. Try the app
 
 - Click ``try it`` button
 - You can change some parameters but we recommend between 1 and 10 (except **color**)
@@ -24,4 +24,4 @@ python3 app.py
 - The **water mark image** will appear below.
 
 ***
-**Thanks for using own app**
+***Thanks for using own app***
