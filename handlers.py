@@ -33,7 +33,7 @@ def watermark(
     position = get_text_position(text, font_size, image.shape)
 
     # Draw text
-    cv2.putText(watermark, text, position, cv2.FONT_HERSHEY_SIMPLEX,
+    cv2.putText(watermark, text, position, cv2.FONT_HERSHEY_TRIPLEX,
                 font_size, color, thickness)
 
     # Merge watermark
