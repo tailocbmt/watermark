@@ -1,6 +1,9 @@
 # watermark
 
-## 1. Install libraries
+## 1. Create virtual environment and install libraries
+```
+python3 -m venv .venv && source .venv/bin/activate
+```
 
 ```
 pip install -r requirements.txt
@@ -18,7 +21,7 @@ python3 app.py
 
 ## 3. Try the app
 
-- Click ``try it`` button
+- Click ``try it out`` button
 - You can change some parameters but we recommend between 1 and 10 (except **color**)
 - Upload image and click ```Execute```
 - The **water mark image** will appear below.
